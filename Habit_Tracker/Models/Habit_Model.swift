@@ -36,11 +36,8 @@ class HabitViewModel: ObservableObject {
         habitList = []
     }
     
-    func save(model: HabitModel?) {
-        
-        if let model = model {
+    func save(model: HabitModel) {
             habitList.insert(model, at: 0)
-        }
     }
     
     func setCompleted(model: HabitModel ) {

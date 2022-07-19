@@ -72,7 +72,6 @@ struct ContentView: View {
     
     func onDelete(indexAt: Int) {
         habitViewModel.habitList.remove(at: indexAt)
-        habitViewModel.save(model: nil)
     }
     
 }

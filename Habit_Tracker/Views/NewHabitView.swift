@@ -94,9 +94,7 @@ struct NewHabitView: View {
                         habitViewModel.save(
                             model: model
                         )
-                        habitViewModel.setCompleted(model: model)
-                        
-                        
+
                         dismiss()
                 } label: {
                     Text("Save")
